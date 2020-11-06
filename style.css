@@ -1,0 +1,506 @@
+ 
+
+ *{
+ 	margin: 0px;
+ 	padding: 0px;
+ 	box-sizing: border-box;
+ 	color: #707070;
+ 	font-family: Arial;
+}
+header{
+	width: 1000px;
+	display: flex;
+	flex-direction: column;
+	min-height: 65px;
+	background-color: #F8F6F6;
+}
+
+
+#logo{
+	width: 320px;
+	margin:0 auto;
+}
+
+#logo img{
+	width: 100%;
+
+}
+
+nav{
+	display: flex;
+
+}
+
+nav ul li{
+	float: left;
+	list-style: none;
+}
+
+nav ul li{
+	text-decoration: none;
+	font-size: 60px;
+	margin-left: 50px;
+}
+
+section{
+	width: 95vw;
+	min-height: 50vh;
+	flex-direction: column;
+	margin-left: 5vw;
+	margin-top:5vh;
+}
+
+section h1{
+	font-size:60px;
+	font-weight: bold;
+	width: 100%;
+}
+
+section .content div {
+	width: 100%;
+	margin-top: 3vh;
+	box-sizing: border-box;
+}
+
+section .content div p {
+	font-size: 20px;
+}
+
+#banco-dados h1{
+	margin-top: -8%;
+	font-size: 80px;
+	text-align: center;
+}
+
+#banco-dados div img{
+	width: 100%;
+	margin-top: 50px;
+}
+
+#banco-dados div{
+	padding-top: 150px ;
+	background-color: #D3D3D3;
+	border: 2px solid;
+	border-color: #0000cd;
+	border-top: 20px solid #0000cd;
+}
+
+#programacao div{
+	padding-top: 150px ;
+	background-color: #D3D3D3;
+	border: 2px solid;
+	border-color: #b22222;
+	border-top: 20px solid #b22222;
+
+}
+
+#programacao h1{
+	margin-top: -8%;
+	font-size: 80px;
+	text-align: center;
+}
+
+#programacao div img{
+	width: 100%;
+	margin-top:50px;
+}
+
+#design-grafico h1{
+		text-align: center;
+}
+
+#web-design div{
+	padding-top: 100px ;
+	background-color: #D3D3D3;
+	border: 2px solid;
+	border-color: #228b22;
+	border-top: 20px solid #228b22;
+	
+}
+
+#web-design div img{
+	width: 100%;
+	margin-top: 50px;
+	
+	
+}
+
+#img-sobre{
+	display: flex;
+	align-items: flex-end;
+}
+
+#img-sobre div{
+	width: 50%;
+	border: 2px solid #707070;
+	margin-right: 2vw;
+}
+
+#img-sobre div img{
+	width: 100%;
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+}
+
+#bronze li{
+	margin-top: 10%;
+	font-size: 60px;
+	list-style: none;
+}
+
+#texto{
+	text-align: left;
+}
+
+#titulo{
+	border:2px solid;
+	height: 100px;
+	margin-top: -320px;
+	text-align: center;
+	background-color: #DCDCDC;
+}
+
+#bronze span{
+	margin-left: 5%;
+	margin-top: 8%;
+	font-size: 70px;
+}
+
+#bronze{
+	padding-top: 100px ;
+	border: 2px solid;
+	border-color: #B8860B;
+	border-top: 250px solid #B8860B;
+	border-bottom: 30px solid #B8860B;
+	height: 1000px;
+}
+
+#prata span{
+	margin-left: 5%;
+	font-size: 70px;
+}
+
+#prata li{
+	margin-top: 10%;
+	font-size: 60px;
+	list-style:none;
+}
+
+#prata{
+
+	padding-top: 100px;
+	border: 2px solid;
+	border-color: #B8860B;
+	border-top: 250px solid #DCDCDC;
+	border-bottom: 30px solid #DCDCDC;
+	height: 1000px;
+}
+
+#ouro span{
+	margin-left: 5%;
+	font-size: 70px;
+}
+
+#ouro li{
+	margin-top: 8%;
+	font-size: 60px;
+	list-style: none;
+}
+
+#ouro{
+
+	padding-top: 100px ;
+	border: 2px solid;
+	border-color: #B8860B;
+	border-top: 250px solid #ffff00;
+	border-bottom: 30px solid #ffff00;
+	height: 1000px;
+}
+
+#qualidade h2{
+	border:0px solid;
+	background-color: white;
+	border-left: 12px solid;
+	border-left-color: #0000cd;
+}
+
+#eficiencia h2{
+	border:0px solid;
+	background-color: white;
+	border-left: 12px solid;
+	border-left-color: #FF0000;
+}
+
+#compromisso h2{
+	border:0px solid;
+	background-color: white;
+	border-left: 12px solid;
+	border-left-color: #008000;
+}
+
+#inovacao h2{
+	border:0px solid;
+	background-color: white;
+	border-left: 12px solid;
+	border-left-color: #FFFF00;
+}
+
+#pesquisa h2{
+	border:0px solid;
+	background-color: white;
+	border-left: 12px solid;
+	border-left-color: #FF00FF;
+}
+
+#qualidades h2{
+	border:0px solid;
+	background-color: white;
+	border-left: 12px solid;
+	border-left-color: #00FFFF;
+} 
+
+@media only screen and (min-width: 1020px){
+	header{
+		flex-direction: row;
+	}
+
+	nav{
+		justify-content: flex-end;
+		width: 90vw;
+		margin-right: 5vw;
+		margin-top: 5vh;	
+	}
+	nav ul li{
+		margin-left: 10vh;
+		font-weight: bold;
+		font-size: 20px;
+		list-style: none;
+	}
+	.content{
+		flex-direction: row;
+	}
+
+
+	section .content div p {
+	font-size: 32px;
+	font-weight: bold;
+	}
+
+	#img-sobre div{
+		border: 2px solid #707070;
+	}
+
+	#web-design div img{
+	width: 100%;
+	margin-top: 50px;
+	
+	}
+
+	#design-grafico h1{
+		font-size: 32px;
+		margin-top: 30px;
+	}
+
+	#web-design div{
+	width: 500px;
+	height: 130px;
+	padding-top: 0px;
+	background-color: #D3D3D3;
+	border:none;
+	border-color: #00FF7F;
+	border-top: 25px solid #32CD32;
+	margin-left: -5%;
+	margin-top: 40% ; 
+	}
+
+	#programacao div{
+		width: 500px;
+		margin-left: 0%;
+		border:none;
+		border-top:25px solid #b22222;
+		padding-top: 0px;
+		margin-top: 15%;
+	}
+
+	#programacao h1{
+		font-size: 32px;
+		margin-top: 30px;
+	}
+
+	#banco-dados h1{
+		font-size: 32px;
+		margin-top: 30px;
+	}
+
+	#banco-dados div{
+		width: 500px;
+		padding-top: 0px;
+		border: none;
+		border-top: 25px solid #0000cd;
+		margin-left: 5%;
+		margin-top: 30% ; 
+	}
+
+	#bronze h1{
+		font-size: 32px;
+	}
+
+	#bronze li{
+		text-align: center;
+		margin-top: 40px;
+		font-size: 12px;
+	}
+
+	#bronze{
+	width: 9000px;
+	border-left: 50px solid #B8860B;
+	padding-top: 100px ;
+	border: 15px solid;
+	border-color: #B8860B;
+	border-top: 160px solid #B8860B;
+	border-bottom: 70px solid #B8860B;
+	height: 550px;	
+	margin-top:20%;
+
+	}
+
+
+	#prata h1{
+		font-size: 32px;
+	}
+
+	#prata li{
+		text-align: center;
+		margin-top: 40px;
+		font-size: 12px;
+	}
+
+	#prata{
+	width: 9000px;
+	border-left: 50px solid #DCDCDC;	
+	padding-top: 100px ;
+	border: 15px solid;
+	border-color: #DCDCDC;
+	border-top: 160px solid #DCDCDC;
+	border-bottom: 70px solid #DCDCDC;
+	height: 600px;
+	margin-top: 16%;
+
+
+	}
+
+
+	#ouro h1{
+		font-size: 32px;
+	}
+
+	#ouro li{
+		text-align: center;
+		margin-top: 50px;
+		font-size: 12px;
+	}
+
+	#ouro{
+	width: 9000px;
+	border-left: 50px solid #ffff00;
+	padding-top: 100px ;
+	border: 15px solid;
+	border-color: #ffff00;
+	border-top: 160px solid #ffff00;
+	border-bottom: 70px solid #ffff00;
+	height: 650px;
+	margin-right: -270px;
+	margin-top: 12%;
+
+	}
+
+	button {
+		width: 50px;
+		height: 25px;
+	}
+
+	
+	#botao-bronze button{
+		font-size: 24px;
+		margin-left: -185%;
+		margin-top: 490%;
+		width: 150px;
+		height: 30px;
+	}
+
+ 	#botao-prata button{
+ 		font-size: 24px;
+ 		width: 150px;
+ 		height: 30px;
+ 		margin-left: -185%;
+ 		margin-top: 490%;
+ 	}
+
+ 	#botao-ouro button{
+ 		font-size: 24px;
+ 		width: 150px;
+ 		height: 30px;
+ 		margin-left: 0%;
+ 		margin-top: 490%;
+ 	}
+
+ 	#titulo span{
+ 		font-size: 30px;
+ 		margin-bottom: 30%;
+ 	}
+
+ 	#titulo h1 {
+
+ 		 margin-top: 5%;
+ 	}
+
+ 	#titulo{
+	border:2px solid;
+	height: 70px;
+	width: 370px;
+	margin-left: 0%;
+	margin-top: -230px;
+	text-align: center;
+	background-color: #DCDCDC;
+	}
+
+	#prata li{
+		margin-top: 16%;
+	}
+
+	#texto li{
+		font-size: 24px;
+	}
+
+	#texto{
+	margin-left: -5%;
+	text-align: left;
+	margin-top: 8%;
+	}
+
+
+	#valores .content{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	#valores .content {
+
+	}
+
+	#valores .content div{
+		align-self: flex-start;
+		width: 31vw;
+		margin-top: 2vh;
+	
+	}
+
+
+
+}
+
+
